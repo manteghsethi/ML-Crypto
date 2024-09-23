@@ -14,8 +14,8 @@ WorldQuant University, LA, USA.
 ——
 
 Email:
-manteghsethi@outlook.com
-anitaxuzx@live.co.uk 
+manteghsethi@outlook.com,
+anitaxuzx@live.co.uk, 
 ampenekelvin@gmail.com 
 
 
