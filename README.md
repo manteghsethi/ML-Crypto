@@ -63,61 +63,6 @@ import matplotlib.pyplot as plt
 import yfinance as yf
 ```
 
-## Project Structure
-
-# Intraday Cryptocurrency Trading Using Machine Learning
-
-This project explores an automated intraday trading strategy for Bitcoin and Ethereum using machine learning models. It leverages advanced trading indicators and market sentiment to predict and act on price movements. Here’s an overview of how it works.
-
----
-
-## 1. Data Collection and Processing
-
-- **Data Sources**: Bitcoin and Ethereum data are collected at different time intervals (1, 5, 15, 30, and 120 minutes) to capture short-term price fluctuations.
-- **Data Handling**: The data is cleaned, scaled, and transformed for consistency, focusing on key indicators like price, volume, and date.
-
----
-
-## 2. Technical Indicators
-
-Technical indicators are used to identify price trends and signals:
-- **Moving Average Convergence Divergence (MACD)**: Highlights momentum by comparing different moving averages.
-- **Relative Strength Index (RSI)**: Measures the speed and change of price movements to detect overbought or oversold conditions.
-- **Money Flow Index (MFI)**: Combines price and volume data to gauge buying and selling pressure.
-
----
-
-## 3. Sentiment Analysis
-
-Sentiment from social media and market sentiment data, like the Crypto Fear and Greed Index, is integrated. This helps capture emotional trends, which often influence cryptocurrency markets.
-
----
-
-## 4. Model Architecture
-
-Three advanced machine learning models analyze price data:
-- **CNN-LSTM**: Combines pattern recognition (CNN) and sequence prediction (LSTM) to understand both short- and long-term trends.
-- **Bidirectional LSTM**: Looks at past and future data to make more robust predictions.
-- **Encoder-Decoder LSTM**: Useful for multi-step forecasting, predicting price changes over longer periods.
-
----
-
-## 5. Back-Testing and Results
-
-The model's performance is tested on historical data to validate its profitability:
-- **Back-testing**: Tests how well the models would have performed historically, highlighting potential profitability.
-- **Results**: The strategy shows profitability in specific market conditions, although tuning is needed for varying conditions.
-
----
-
-## 6. Conclusion
-
-This project demonstrates the potential for machine learning in cryptocurrency trading. By combining technical indicators and sentiment data, it aims to predict and capitalize on intraday price movements. With continued tuning, the model offers a foundation for real-time trading in a volatile market.
-
----
-
-This guide provides an overview of how the system collects, processes, and uses data to make informed trading decisions. Although complex behind the scenes, the approach is straightforward: blend market signals with sentiment for better timing and execution.
-
 
 
 
